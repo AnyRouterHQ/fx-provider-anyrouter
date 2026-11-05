@@ -1,0 +1,71 @@
+{
+  "name": "fx-provider-anyrouter",
+  "version": "0.1.0",
+  "description": "Use AnyRouter as a custom provider in fx (libfx) with one line. Maps the live AnyRouter model catalog to fx provider model metadata.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts",
+    "dist/index.js.map",
+    "dist/index.d.ts.map",
+    "dist/mapping.js",
+    "dist/mapping.d.ts",
+    "dist/mapping.js.map",
+    "dist/mapping.d.ts.map",
+    "dist/models.snapshot.json",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build",
+    "test": "vitest run",
+    "snapshot": "tsx scripts/generate-snapshot.ts",
+    "smoke": "tsx scripts/smoke.ts"
+  },
+  "keywords": [
+    "fx",
+    "libfx",
+    "anyrouter",
+    "openai-compatible",
+    "provider",
+    "llm"
+  ],
+  "license": "MIT",
+  "author": "AnyRouter <https://anyrouter.dev>",
+  "homepage": "https://github.com/anyrouter-dev/fx-provider-anyrouter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anyrouter-dev/fx-provider-anyrouter.git"
+  },
+  "bugs": "https://github.com/anyrouter-dev/fx-provider-anyrouter/issues",
+  "peerDependencies": {
+    "libfx": "^0.0.16"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "libfx": "^0.0.16",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "imports": {
+    "#snapshot": "./src/models.snapshot.json"
+  }
+}

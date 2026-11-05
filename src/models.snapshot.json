@@ -1,0 +1,478 @@
+{
+  "models": {
+    "anyrouter/hermes": {
+      "contextWindow": 1050000,
+      "maxOutputTokens": 64000,
+      "supportsToolUse": true,
+      "supportsVision": false
+    },
+    "anyrouter/cowork": {
+      "contextWindow": 1050000,
+      "maxOutputTokens": 64000,
+      "supportsToolUse": true,
+      "supportsVision": false
+    },
+    "anyrouter/free": {
+      "contextWindow": 1048576,
+      "maxOutputTokens": 64000,
+      "supportsToolUse": true,
+      "supportsVision": false
+    },
+    "anyrouter/auto": {
+      "contextWindow": 1050000,
+      "maxOutputTokens": 64000,
+      "supportsToolUse": true,
+      "supportsVision": false
+    },
+    "anyrouter/decision": {
+      "contextWindow": 262144,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "anyrouter/latest": {
+      "contextWindow": 1050000,
+      "maxOutputTokens": 64000,
+      "supportsToolUse": true,
+      "supportsVision": false
+    },
+    "apple/foundation-model": {
+      "contextWindow": 4096,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "baai/bge-base-en-v1.5": {
+      "contextWindow": 512,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "cohere/north-mini-code": {
+      "contextWindow": 262144,
+      "maxOutputTokens": 64000,
+      "supportsToolUse": true,
+      "supportsVision": false
+    },
+    "cohere/rerank-multilingual-v3.0": {
+      "contextWindow": 4096,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "cohere/rerank-v3.5": {
+      "contextWindow": 4096,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "cohere/rerank-v4.0-fast": {
+      "contextWindow": 32768,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "cohere/rerank-v4.0-pro": {
+      "contextWindow": 32768,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "deepseek/deepseek-v4.1-flash-1017": {
+      "contextWindow": 1056784,
+      "maxOutputTokens": 131072,
+      "supportsToolUse": true,
+      "supportsVision": true
+    },
+    "deepseek/deepseek-v4.1-flash": {
+      "contextWindow": 1050000,
+      "maxOutputTokens": 32768,
+      "supportsToolUse": true,
+      "supportsVision": true
+    },
+    "dots-studio/dots-3-note-preview": {
+      "contextWindow": 512000,
+      "maxOutputTokens": 460800,
+      "supportsToolUse": true,
+      "supportsVision": true
+    },
+    "fastino/gliner2.5-multi-v1": {
+      "contextWindow": 32000,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "google/gemma-4-31b": {
+      "contextWindow": 262144,
+      "maxOutputTokens": 32768,
+      "supportsToolUse": true,
+      "supportsVision": true
+    },
+    "hal-x/thx-01": {
+      "contextWindow": 1024,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "inception/mercury-decide": {
+      "contextWindow": 32768,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "inclusionai/ling-3.1-flash": {
+      "contextWindow": 1000000,
+      "maxOutputTokens": 32768,
+      "supportsToolUse": true,
+      "supportsVision": false
+    },
+    "intfloat/e5-base-v2": {
+      "contextWindow": 512,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "jaredpalmer/kev-4b": {
+      "contextWindow": 8192,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "liquid/d1-ultra": {
+      "contextWindow": 32768,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "liquid/d1": {
+      "contextWindow": 32000,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "liquid/lfm-2.5-2.6b": {
+      "contextWindow": 128000,
+      "maxOutputTokens": 8192,
+      "supportsToolUse": true,
+      "supportsVision": false
+    },
+    "liquid/lfm-2.5-embedding-350m": {
+      "contextWindow": 512,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "meituan/longcat-2.5": {
+      "contextWindow": 1048576,
+      "maxOutputTokens": 262144,
+      "supportsToolUse": true,
+      "supportsVision": true
+    },
+    "meta/muse-glimmer-30b": {
+      "contextWindow": 131072,
+      "maxOutputTokens": 131071,
+      "supportsToolUse": true,
+      "supportsVision": true
+    },
+    "meta/muse-spark-1.2-contributor": {
+      "contextWindow": 1048576,
+      "supportsToolUse": true,
+      "supportsVision": true
+    },
+    "microsoft/microsoft-decision-1": {
+      "contextWindow": 32768,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "minimax/minimax-m3.1-flash": {
+      "contextWindow": 1048576,
+      "maxOutputTokens": 131072,
+      "supportsToolUse": true,
+      "supportsVision": true
+    },
+    "moonshotai/kimi-k3": {
+      "contextWindow": 1050000,
+      "maxOutputTokens": 32768,
+      "supportsToolUse": true,
+      "supportsVision": true
+    },
+    "nace-ai/drex-v1.5": {
+      "contextWindow": 131072,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "nace-ai/drex-v2.0": {
+      "contextWindow": 131072,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "nvidia/nemotron-3-embed-1b": {
+      "contextWindow": 32768,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning": {
+      "contextWindow": 256000,
+      "maxOutputTokens": 20480,
+      "supportsToolUse": true,
+      "supportsVision": true
+    },
+    "nvidia/nemotron-3-ultra-550b-a55b": {
+      "contextWindow": 1048576,
+      "maxOutputTokens": 16384,
+      "supportsToolUse": true,
+      "supportsVision": false
+    },
+    "nvidia/nemotron-3.5-bolt-e4b": {
+      "contextWindow": 65536,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "nvidia/nemotron-3.5-content-safety": {
+      "contextWindow": 131072,
+      "maxOutputTokens": 8192,
+      "supportsToolUse": false,
+      "supportsVision": true
+    },
+    "nvidia/nemotron-3.5-embed-1b": {
+      "contextWindow": 32768,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "nvidia/nemotron-3.5-embed-8b": {
+      "contextWindow": 32768,
+      "supportsToolUse": false,
+      "supportsVision": true
+    },
+    "nvidia/nemotron-3.5-lightning-30b-a3b": {
+      "contextWindow": 1048576,
+      "maxOutputTokens": 32768,
+      "supportsToolUse": true,
+      "supportsVision": false
+    },
+    "nvidia/nemotron-3.5-super-vl-120b-a12b": {
+      "contextWindow": 1048576,
+      "maxOutputTokens": 131072,
+      "supportsToolUse": true,
+      "supportsVision": true
+    },
+    "nvidia/nemotron-parse-2.0": {
+      "contextWindow": 8192,
+      "supportsToolUse": false,
+      "supportsVision": true
+    },
+    "nvidia/riva-translate-4b-instruct-v2": {
+      "contextWindow": 4096,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "openai/gpt-5.6-luna": {
+      "contextWindow": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsToolUse": true,
+      "supportsVision": true
+    },
+    "openai/gpt-6-luna": {
+      "contextWindow": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsToolUse": true,
+      "supportsVision": true
+    },
+    "openai/gpt-6.1-sol": {
+      "contextWindow": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsToolUse": true,
+      "supportsVision": true
+    },
+    "openai/gpt-6.1-terra": {
+      "contextWindow": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsToolUse": true,
+      "supportsVision": true
+    },
+    "openai/gpt-oss-20b": {
+      "contextWindow": 131072,
+      "maxOutputTokens": 8192,
+      "supportsToolUse": true,
+      "supportsVision": false
+    },
+    "openrouter/bodybuilder": {
+      "contextWindow": 128000,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "openrouter/pareto-code": {
+      "contextWindow": 2000000,
+      "supportsToolUse": true,
+      "supportsVision": false
+    },
+    "perplexity/pplx-decider-flash-v1.2": {
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "perplexity/pplx-decider-v1-27b": {
+      "contextWindow": 262144,
+      "supportsToolUse": false,
+      "supportsVision": true
+    },
+    "perplexity/pplx-decider-v1.1-27b": {
+      "contextWindow": 262144,
+      "supportsToolUse": false,
+      "supportsVision": true
+    },
+    "perplexity/pplx-embed-v1-0.6b": {
+      "contextWindow": 32000,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "perplexity/pplx-embed-v1-4b": {
+      "contextWindow": 32000,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "recursive/flint-v1.0": {
+      "contextWindow": 262144,
+      "maxOutputTokens": 235929,
+      "supportsToolUse": true,
+      "supportsVision": false
+    },
+    "reflection/beam-1.0": {
+      "contextWindow": 1048576,
+      "maxOutputTokens": 131072,
+      "supportsToolUse": true,
+      "supportsVision": false
+    },
+    "scira/amos-1-large": {
+      "contextWindow": 131072,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "scira/amos-1-mini": {
+      "contextWindow": 9216,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "scira/amos-1-small": {
+      "contextWindow": 262144,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "sentence-transformers/all-minilm-l6-v2": {
+      "contextWindow": 512,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "stealth/crouton-alpha": {
+      "contextWindow": 1048576,
+      "maxOutputTokens": 943718,
+      "supportsToolUse": true,
+      "supportsVision": true
+    },
+    "stealth/glyph-cluster": {
+      "contextWindow": 256000,
+      "maxOutputTokens": 255999,
+      "supportsToolUse": true,
+      "supportsVision": false
+    },
+    "strandsagents/strands-decider-2b": {
+      "contextWindow": 4096,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "subquadratic/subq-preview": {
+      "supportsToolUse": true,
+      "supportsVision": false
+    },
+    "subquadratic/subq-snap-preview": {
+      "supportsToolUse": false,
+      "supportsVision": true
+    },
+    "thenlper/gte-base": {
+      "contextWindow": 512,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "thinkingmachines/inkling-small": {
+      "contextWindow": 1048576,
+      "maxOutputTokens": 262144,
+      "supportsToolUse": true,
+      "supportsVision": true
+    },
+    "typesafe/jev": {
+      "contextWindow": 64000,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "upstage/solar-decide-flash": {
+      "contextWindow": 524288,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "upstage/solar-decide": {
+      "contextWindow": 524288,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "vllm-sr/d3-edge": {
+      "contextWindow": 131072,
+      "supportsToolUse": false,
+      "supportsVision": true
+    },
+    "vllm-sr/d3-flash": {
+      "contextWindow": 131072,
+      "supportsToolUse": false,
+      "supportsVision": true
+    },
+    "vllm-sr/d3-lite": {
+      "contextWindow": 131072,
+      "supportsToolUse": false,
+      "supportsVision": true
+    },
+    "vllm-sr/d3-mini": {
+      "contextWindow": 131072,
+      "supportsToolUse": false,
+      "supportsVision": true
+    },
+    "vllm-sr/d3-nano": {
+      "contextWindow": 131072,
+      "supportsToolUse": false,
+      "supportsVision": true
+    },
+    "vllm-sr/d3-ultra": {
+      "contextWindow": 131072,
+      "supportsToolUse": false,
+      "supportsVision": true
+    },
+    "xingchen-agi/xing4.0-29b-a4b": {
+      "contextWindow": 262144,
+      "maxOutputTokens": 235929,
+      "supportsToolUse": true,
+      "supportsVision": false
+    },
+    "z-ai/glm-4.5-flash": {
+      "contextWindow": 128000,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "z-ai/glm-5.3": {
+      "contextWindow": 1310720,
+      "maxOutputTokens": 128000,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "google/gemma-latest": {
+      "contextWindow": 262144,
+      "maxOutputTokens": 32768,
+      "supportsToolUse": true,
+      "supportsVision": true
+    },
+    "deepseek/deepseek-flash-latest": {
+      "contextWindow": 1056784,
+      "maxOutputTokens": 131072,
+      "supportsToolUse": true,
+      "supportsVision": true
+    },
+    "z-ai/glm-latest": {
+      "contextWindow": 1310720,
+      "maxOutputTokens": 128000,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "z-ai/glm-flash-latest": {
+      "contextWindow": 128000,
+      "supportsToolUse": false,
+      "supportsVision": false
+    },
+    "moonshotai/kimi-latest": {
+      "contextWindow": 1050000,
+      "maxOutputTokens": 32768,
+      "supportsToolUse": true,
+      "supportsVision": true
+    }
+  }
+}
