@@ -42,12 +42,12 @@
   ],
   "license": "MIT",
   "author": "AnyRouter <https://anyrouter.dev>",
-  "homepage": "https://github.com/anyrouter-dev/fx-provider-anyrouter",
+  "homepage": "https://github.com/AnyRouterHQ/fx-provider-anyrouter",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anyrouter-dev/fx-provider-anyrouter.git"
+    "url": "git+https://github.com/AnyRouterHQ/fx-provider-anyrouter.git"
   },
-  "bugs": "https://github.com/anyrouter-dev/fx-provider-anyrouter/issues",
+  "bugs": "https://github.com/AnyRouterHQ/fx-provider-anyrouter/issues",
   "peerDependencies": {
     "libfx": "^0.0.16"
   },
