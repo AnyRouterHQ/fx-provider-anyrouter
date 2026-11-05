@@ -5,7 +5,7 @@ Use [AnyRouter](https://anyrouter.dev) as a provider in [fx](https://fx.sh) ([li
 ## Install
 
 ```bash
-npm install fx-provider-anyrouter
+npm install github:AnyRouterHQ/fx-provider-anyrouter#v0.1.0
 ```
 
 `libfx` is a peer dependency (`^0.0.16`, the npm package that ships `createFxAgent` and the `FxCustomProvider` types).
